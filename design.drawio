@@ -1,35 +1,51 @@
 <mxfile host="65bd71144e">
     <diagram id="aqkya4TFRdpiTSBKbrii" name="Flowchart">
-        <mxGraphModel dx="1074" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-0"/>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-1" parent="7Z-LrOooxTyzb09muiCP-0"/>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-2" target="7Z-LrOooxTyzb09muiCP-3">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-7" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-2" target="7Z-LrOooxTyzb09muiCP-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="364" y="80" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-8" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="7Z-LrOooxTyzb09muiCP-4">
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-3" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-3" value="Get radius" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-3" value="Get number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="364" y="170" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-9" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-4" target="7Z-LrOooxTyzb09muiCP-5">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-9" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" target="7Z-LrOooxTyzb09muiCP-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="101.33333333333326" y="320" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7Z-LrOooxTyzb09muiCP-10" value="" style="edgeStyle=none;html=1;" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-5" target="7Z-LrOooxTyzb09muiCP-6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-4" value="circumference = radius * tau" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="292" y="260" width="244" height="60" as="geometry"/>
+                <mxCell id="7Z-LrOooxTyzb09muiCP-5" value="Display circumference" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
+                    <mxGeometry x="17" y="350" width="166" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-10" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="7Z-LrOooxTyzb09muiCP-5" target="7Z-LrOooxTyzb09muiCP-6">
+                <mxCell id="7Z-LrOooxTyzb09muiCP-6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
+                    <mxGeometry x="50" y="440" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="480" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="quotient = number / i" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="292" y="524.5" width="244" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="for i in range(1, number)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="327" y="390" width="174" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="7Z-LrOooxTyzb09muiCP-1" source="5" target="4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-5" value="Display circumference" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="331" y="350" width="166" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="7Z-LrOooxTyzb09muiCP-6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
-                    <mxGeometry x="364" y="440" width="100" height="60" as="geometry"/>
+                <mxCell id="5" value="if number &amp;gt; 0 &amp;amp;&amp;amp; isinstance(number, int)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="7Z-LrOooxTyzb09muiCP-1">
+                    <mxGeometry x="327" y="260" width="174" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
