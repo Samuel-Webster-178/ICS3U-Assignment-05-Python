@@ -31,6 +31,8 @@ def main():
     str_number = input("Your number is: ")
     try:
         int_number = int(str_number)
+        if int_number < 1:
+            raise Exception()
         factors = CalculateFactors(int_number)
         print("\nFactors: ", end="")
         for i in range(len(factors)):
