@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="KjG14Q_7bZ2Fs4syXYFA" name="Top Down">
-        <mxGraphModel dx="1074" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -47,7 +47,7 @@
                 <mxCell id="QtO_xw6DOo0jZK6YUWM9-5" value="Get number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="QtO_xw6DOo0jZK6YUWM9-6" value="Calculate factors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="QtO_xw6DOo0jZK6YUWM9-6" value="find all integers from 1 to number where number mod integer is 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="QtO_xw6DOo0jZK6YUWM9-7" value="Display factors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -57,7 +57,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="aqkya4TFRdpiTSBKbrii" name="Flowchart">
-        <mxGraphModel dx="1074" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-0"/>
                 <mxCell id="7Z-LrOooxTyzb09muiCP-1" parent="7Z-LrOooxTyzb09muiCP-0"/>
@@ -117,7 +117,7 @@
                 <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="7Z-LrOooxTyzb09muiCP-1" source="10" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="factors.append(quotient)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
+                <mxCell id="10" value="factors.append(i)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
                     <mxGeometry x="292" y="620" width="244" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="7Z-LrOooxTyzb09muiCP-1" vertex="1">
