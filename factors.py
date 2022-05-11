@@ -27,7 +27,7 @@ def main():
     factors = []
 
     # input & output
-    print("This program calculates the factors of an integer.")
+    print("This program calculates the factors of a natural number.")
     str_number = input("Your number is: ")
     try:
         int_number = int(str_number)
